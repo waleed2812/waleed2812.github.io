@@ -1,25 +1,38 @@
 {
-  "short_name": "Portfolio",
+  "short_name": "Waleed Butt",
   "name": "Waleed Butt | Portfolio",
+  "description": "Dedicated and efficient full stack developer with experience in application layers, presentation layers, and databases. Certified in both F/E and B/E technologies.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "orientation": "portrait",
+  "background_color": "#020D1B",
+  "background_colors": [
+    {
+      "color": "#020D1B",
+      "media": "(prefers-color-scheme: dark)"
+    },
+    {
+      "color": "#DDDDDD",
+      "media": "(prefers-color-scheme: light)"
+    }
+  ],
+  "theme_color": "#3688E5",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "assets/favicon.ico",
       "sizes": "64x64",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "assets/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "assets/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
-  "display": "minimal-ui",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "splash_pages": null
 }
